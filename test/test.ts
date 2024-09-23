@@ -1,8 +1,8 @@
 import {Item} from '../src/items/Item.ts';
-import {AMMO_SCAVENGER, BOUNDLESS_SPIRIT} from '../src/items/spirit/index';
+import {ALL_SPIRIT_ITEMS} from '../src/items/spirit/index.ts';
+import {ALL_WEAPON_ITEMS} from '../src/items/weapon/index.ts';
+import {ALL_VITALITY_ITEMS} from '../src/items/vitality/index.ts';
 
-function logItem(item: Item) {
-    console.log(item.tier.price);
-}
-logItem(AMMO_SCAVENGER);
-logItem(BOUNDLESS_SPIRIT);
+ALL_WEAPON_ITEMS.forEach((item: Item) => {
+    console.log(item.name);
+});

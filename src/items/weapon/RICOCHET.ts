@@ -1,0 +1,20 @@
+import { ItemDescription } from "../Item";
+
+export const RICOCHET: ItemDescription = {
+  name: 'Ricochet',
+  type: 'weapon',
+  tier: 4,
+  stats: [
+    [35, '%', "Ammo"],
+    [12, '%', "Fire Rate"],
+    [150, '', "Bonus Health"]
+  ],
+  passive: {
+    description: "Your bullets will ricochet on enemies near your target, applying any bullet procs and dealing a percentage of the original damage.",
+    details: [
+      [60, "%", "Ricochet Damage"],
+      [2, "Ricochet Targets"],
+      [14, "m", "Ricochet Range"]
+    ]
+  }
+}

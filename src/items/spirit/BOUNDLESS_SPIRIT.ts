@@ -1,21 +1,16 @@
 import { ItemDescription } from "../Item";
-import { AMMO_SCAVENGER } from "./AMMO_SCAVENGER";
+import { IMPROVED_SPIRIT } from "./IMPROVED_SPIRIT";
 
-
-export const BOUNDLESS_SPIRIT : ItemDescription = {
-  type: "weapon",
-  name: 'Boundless Spirit', 
-  tier: 2,
+export const BOUNDLESS_SPIRIT: ItemDescription = {
+  name: 'Boundless Spirit',
+  type: 'spirit',
+  tier: 4,
   stats: [
-    [60, 'Spirit Power'],
-    [20, '%', 'Bullet Damage']
-  ],  
-  passive: {
-    description: "Any time you secure or deny a Soul you get ammo back and gain stacking Spirit Power.",
-    details: [
-      [15, '%', "Ammo"],
-      [60, "Bonus Health"]
-    ]
-  },
-  preReq: () => AMMO_SCAVENGER
-};
+    [60, '', "Spirit Power"],
+    [25, '%', "Weapon Damage"],
+    [300, '', "Bonus Health"],
+    [15, '', "Health Regen"],
+    [3, 'm/s', "Sprint Speed"]
+  ],
+  preReq: () => IMPROVED_SPIRIT
+}

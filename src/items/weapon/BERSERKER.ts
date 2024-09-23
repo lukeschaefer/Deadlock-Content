@@ -1,0 +1,20 @@
+import { ItemDescription } from "../Item";
+
+export const BERSERKER: ItemDescription = {
+  name: 'Berserker',
+  type: 'weapon',
+  tier: 2,
+  stats: [
+    [4, '', "Ammo"],
+    [7, '%', "Bullet Resist"]
+  ],
+  passive: {
+    description: "Your Weapon Damage increases as you take sustained damage.",
+    details: [
+      [5, "%", "Weapon Damage per Stack"],
+      [110, "Damage taken to Stack"],
+      [10, "Max Stacks"],
+      [10, "s", "Duration"]
+    ]
+  }
+}

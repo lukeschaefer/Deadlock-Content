@@ -1,7 +1,6 @@
-import { TemplateResult } from "lit";
-import { Tier, TierList, Tiers } from "./Tiers";
+import { Tier, TierList } from "./Tiers";
 
-export type Unit = '%' | '' | 'm/s' | 'm';
+export type Unit = '%' | '' | 'm/s' | 'm' | 's' | '%/sec';
 type ShorthandTier = 1 | 2 | 3 | 4;
 
 export class Item {
@@ -105,7 +104,7 @@ export type DeferredItemReference = () => ItemDescription;
 export interface ItemDescription {
   type: "weapon" | "spirit" | "vitality"
   name: string,
-  tier: number,
+  tier: ShorthandTier,
   stats?: StatChangeTuple[],
   buildsInto?: DeferredItemReference,
   preReq?: DeferredItemReference,
