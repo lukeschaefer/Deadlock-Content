@@ -1,6 +1,6 @@
 {
   "name": "deadlock-content",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Provides a structured way to access information about skills and items in the game Deadlock",
   "main": "dist/index",
   "types": "dist/index.d.ts",
