@@ -1,15 +1,17 @@
 {
     "compilerOptions": {
-      "outDir": "./dist",
-      "declaration": true,
-      "declarationMap": true,
-      "module": "ESNext",
+      "outDir": "dist",
       "target": "ES2019",
       "moduleResolution": "Node",
       "esModuleInterop": true,
-      "strict": true,
+      "forceConsistentCasingInFileNames": true,
       "skipLibCheck": true,
-      "forceConsistentCasingInFileNames": true
+      "strict": true,
+      "allowSyntheticDefaultImports": true,
+      "declaration": true,
+      "declarationMap": true,
+      "rootDir": "src",
+     "module": "umd"
     },
-    "include": ["src"]
+    "include": ["src/**/*"]
   }
