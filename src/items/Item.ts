@@ -15,8 +15,8 @@ export class Item {
     this.name = description.name;
     this.type = description.type;
     this.tier = TierList[description.tier - 1];
-    this.passive = description.passive;
-    this.active = description.active;
+    this.passive = convertAbility(description.passive);
+    this.active = convertAbility(description.active);
     this.stats = (description.stats ?? []).map(stat => convertStatTupleToStruct(stat));
   }
 
@@ -37,10 +37,17 @@ export function item(description: ItemDescription) {
   return new Item(description)
 }
 
-export interface Ability {
+export interface AbilityDescription {
   description: string; // Markdown formatted text
   cooldown?: number; // Cooldown in seconds
   details?: AffectTuple[]
+}
+
+
+export interface Ability {
+  description: string; // Markdown formatted text
+  cooldown?: number; // Cooldown in seconds
+  details?: Affect[]
 }
 
 
@@ -94,6 +101,12 @@ export function convertStatTupleToStruct(tuple: StatChangeTuple): StatChange {
   };
 }
 
+export interface Affect {
+  amount: number;
+  unit: Unit;
+  ordinal: Ordinal;
+  stat: string;
+}
 
 type FullAffectTuple = [Ordinal, number, Unit, string];
 type AffectTupleWithoutOrdinal = [number, Unit, string];
@@ -108,6 +121,54 @@ export interface ItemDescription {
   stats?: StatChangeTuple[],
   buildsInto?: DeferredItemReference,
   preReq?: DeferredItemReference,
-  passive?: Ability,
-  active?: Ability,
+  passive?: AbilityDescription,
+  active?: AbilityDescription,
+}
+
+export function converAbilityTupleToStruct(tuple: AffectTuple): Affect {
+  let amount: number = 0;
+  let unit: Unit = '';
+  let stat: string = '';
+  let ordinal: Ordinal = '';
+
+  if(typeof tuple[0] == "string") {
+    if(tuple.length === 3) {
+      // [Ordinal, number, string]
+      ordinal = tuple[0] as Ordinal;
+      amount = tuple[1] as number;
+      stat = tuple[2] as string;
+    } else {
+      // [Ordinal, number, Unit, string]
+      ordinal = tuple[0] as Ordinal;
+      amount = tuple[1] as number;
+      unit = tuple[2] as Unit;
+      stat = tuple[3] as string;
+    }
+  } else {
+    if(tuple.length === 2) {
+      // [number, string]
+      amount = tuple[0] as number;
+      stat = tuple[1] as string;
+    } else {
+      // [number, Unit, string]
+      amount = tuple[0] as number;
+      unit = tuple[1] as Unit;
+      stat = tuple[2] as string;
+    }
+  }
+  return {
+    amount,
+    unit,
+    ordinal,
+    stat,
+  };
+}
+
+export function convertAbility(description?: AbilityDescription): Ability | undefined {
+  if(!description) return undefined;
+  return {
+    description: description.description,
+    cooldown: description.cooldown,
+    details: description.details?.map(affect => converAbilityTupleToStruct(affect))
+  }
 }
