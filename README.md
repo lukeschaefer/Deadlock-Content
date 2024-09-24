@@ -1,16 +1,19 @@
 # deadlock-content
 
-Provides an accessible list of deadlock content in a structured format for building sites/bots/etc.
+Provides an accessible list of deadlock content in a structured format for building sites/bots/etc.  
+Powers [deadlock.zip](https://deadlock.zip) as well as the reddit [DeadlockBot](https://github.com/lukeschaefer/DeadlockBot).
+
+Currently just has items, but may add abilities/characters as well.
 
 ## How to use
 
 First install, via npm:
 
-> npm i deadlock-content
+`npm i deadlock-content`
 
 Then in your code, import content like so:
 
-> import {ALL_ITEMS} from 'deadlock-content';
+`import {ALL_ITEMS} from 'deadlock-content';`
 
 This is an array that can be iterated over. There's also `ALL_SPIRIT_ITEMS`, `ALL_VITALITY_ITEMS`, and `ALL_WEAPON_ITEMS`. I should make it so you can import any individual item but I didn't. Items have this format:
 
