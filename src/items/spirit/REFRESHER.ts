@@ -5,8 +5,8 @@ export const REFRESHER: ItemDescription = {
   type: 'spirit',
   tier: 4,
   stats: [
-    [16, '%', "Spirit Resist"],
-    [8, '%', "Bullet Resist"]
+    [8, '%', "Spirit Resist"],
+    [16, '%', "Bullet Resist"]
   ],
   active: {
     description: "Reset the cooldown of all your abilities and restore all your charges.",

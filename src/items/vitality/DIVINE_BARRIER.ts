@@ -6,7 +6,7 @@ export const DIVINE_BARRIER: ItemDescription = {
   tier: 2,
   stats: [
     [1, 'm/s', "Sprint Speed"],
-    [75, '', "Bonus Health"],
+    [70, '', "Bonus Health"],
     [8, '%', "Ability Range"]
   ],
   active: {

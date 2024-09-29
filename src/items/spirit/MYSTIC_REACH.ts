@@ -6,8 +6,8 @@ export const MYSTIC_REACH: ItemDescription = {
   type: 'spirit',
   tier: 1,
   stats: [
-    [16, '%', "Ability Range"],
-    [6, '%', "Spirit Resist"]
+    [18, '%', "Ability Range"],
+    [6, '%', "Bullet Resist"]
   ],
   buildsInto: () => IMPROVED_REACH
 }

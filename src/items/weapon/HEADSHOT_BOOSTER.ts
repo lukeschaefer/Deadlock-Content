@@ -1,11 +1,12 @@
 import { ItemDescription } from "../Item";
+import { HEADHUNTER } from "./HEADHUNTER";
 
 export const HEADSHOT_BOOSTER: ItemDescription = {
   name: 'Headshot Booster',
   type: 'weapon',
   tier: 1,
   stats: [
-    [5, '%', "Fire Rate"],
+    [4, '%', "Fire Rate"],
     [40, '', "Bullet Shield Health"]
   ],
   passive: {
@@ -13,5 +14,6 @@ export const HEADSHOT_BOOSTER: ItemDescription = {
     details: [
       [40, "Head Shot Bonus Damage"]
     ]
-  }
+  },
+  buildsInto: () => HEADHUNTER
 }

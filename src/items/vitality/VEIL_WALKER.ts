@@ -15,7 +15,6 @@ export const VEIL_WALKER: ItemDescription = {
     cooldown: 17,
     details: [
       ["+", 3, "m/s", "Invis Move Speed (Conditional)"],
-      ["+", 30, "%", "Fire Rate (Conditional)"],
       [5, "s", "Invisibility Duration"]
     ]
   }

@@ -5,7 +5,7 @@ export const HOLLOW_POINT_WARD: ItemDescription = {
   type: 'weapon',
   tier: 1,
   stats: [
-    [85, '', "Spirit Shield Health"],
+    [95, '', "Spirit Shield Health"],
     [4, '', "Spirit Power"]
   ],
   passive: {

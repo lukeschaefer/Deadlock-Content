@@ -10,7 +10,7 @@ export const RESTORATIVE_SHOT: ItemDescription = {
   ],
   passive: {
     description: "Your next bullet will heal you based on what target you hit.",
-    cooldown: 6,
+    cooldown: 5.5,
     details: [
       [40, "Healing from Heroes"],
       [15, "Healing from NPCs"]

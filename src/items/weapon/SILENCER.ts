@@ -7,7 +7,8 @@ export const SILENCER: ItemDescription = {
   tier: 4,
   stats: [
     [25, '%', "Bullet Slow Proc"],
-    [15, '%', "Weapon Damage"]
+    [15, '%', "Weapon Damage"],
+    [12, 'Spirit'],
   ],
   active: {
     description: "For the next 4s, all your bullets immediately apply Silence. Silence prevents targets from using abilities.",

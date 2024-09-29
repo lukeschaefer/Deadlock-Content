@@ -16,7 +16,7 @@ export const COLOSSUS: ItemDescription = {
       [40, "%", "Bullet Resist (Conditional)"],
       [40, "%", "Spirit Resist (Conditional)"],
       [35, "%", "Movement Slow (Conditional)"],
-      [10, "m", "Radius"],
+      [14, "m", "Radius"],
       [7, "s", "Duration"]
     ]
   }

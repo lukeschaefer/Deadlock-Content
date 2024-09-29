@@ -6,7 +6,7 @@ export const IMPROVED_BULLET_ARMOR: ItemDescription = {
   type: 'vitality',
   tier: 3,
   stats: [
-    [45, '%', "Bullet Resist"],
+    [50, '%', "Bullet Resist"],
     [10, '%', "Weapon Damage"]
   ],
   preReq: () => BULLET_ARMOR

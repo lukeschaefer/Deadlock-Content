@@ -8,7 +8,7 @@ export const IMPROVED_REACH: ItemDescription = {
   stats: [
     [35, '%', "Imbued Ability Range"],
     [25, '%', "Non-Imbued Ability Range"],
-    [10, '%', "Spirit Resist"],
+    [12, '%', "Bullet Resist"],
     [8, '', "Spirit Power"]
   ],
   preReq: () => MYSTIC_REACH

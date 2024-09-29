@@ -1,4 +1,5 @@
 import { ItemDescription } from "../Item";
+import { HEADSHOT_BOOSTER } from "./HEADSHOT_BOOSTER";
 import { HIGH_VELOCITY_MAG } from "./HIGH_VELOCITY_MAG";
 
 export const HEADHUNTER: ItemDescription = {
@@ -6,7 +7,7 @@ export const HEADHUNTER: ItemDescription = {
   type: 'weapon',
   tier: 3,
   stats: [
-    [50, '%', "Bullet Speed"],
+    [5, '%', "Fire Rate"],
     [15, '%', "Weapon Damage"],
     [150, '', "Bullet Shield Health"]
   ],
@@ -19,5 +20,5 @@ export const HEADHUNTER: ItemDescription = {
       [3, "s", "Duration"]
     ]
   },
-  preReq: () => HIGH_VELOCITY_MAG
+  preReq: () => HEADSHOT_BOOSTER
 }

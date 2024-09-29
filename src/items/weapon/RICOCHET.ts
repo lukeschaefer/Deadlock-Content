@@ -6,7 +6,7 @@ export const RICOCHET: ItemDescription = {
   tier: 4,
   stats: [
     [35, '%', "Ammo"],
-    [12, '%', "Fire Rate"],
+    [10, '%', "Fire Rate"],
     [150, '', "Bonus Health"]
   ],
   passive: {

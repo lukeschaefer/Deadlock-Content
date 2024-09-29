@@ -11,7 +11,7 @@ export const INTENSIFYING_MAGAZINE: ItemDescription = {
   passive: {
     description: "Increases Weapon Damage as you continuously fire your weapon.",
     details: [
-      [75, "%", "Max Weapon Damage (Conditional)"],
+      [60, "%", "Max Weapon Damage (Conditional)"],
       [3, "s", "Time for Max Damage"]
     ]
   }

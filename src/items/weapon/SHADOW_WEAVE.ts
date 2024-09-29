@@ -2,7 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const SHADOW_WEAVE: ItemDescription = {
   name: 'Shadow Weave',
-  type: 'vitality',
+  type: 'weapon',
   tier: 4,
   stats: [
     [15, '', "Health Regen"],

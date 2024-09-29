@@ -6,7 +6,6 @@ export const SPIRIT_STRIKE: ItemDescription = {
   tier: 1,
   stats: [
     [80, '', "Spirit Shield Health"],
-    [0.8, '', "Health Regen"],
     [12, '%', "Melee Damage"]
   ],
   passive: {

@@ -6,7 +6,7 @@ export const HEALTH_NOVA: ItemDescription = {
   type: 'vitality',
   tier: 2,
   stats: [
-    [10, '%', "Weapon Damage"],
+    [12, '%', "Weapon Damage"],
     [100, '', "Bonus Health"],
     [4, '', "Spirit Power"]
   ],

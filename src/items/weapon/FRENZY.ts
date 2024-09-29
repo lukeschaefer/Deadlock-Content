@@ -14,7 +14,7 @@ export const FRENZY: ItemDescription = {
     details: [
       [4, "m/s", "Movement Speed (Conditional)"],
       [40, "%", "Fire Rate (Conditional)"],
-      [45, "%", "Spirit Resist (Conditional)"]
+      [45, "%", "Bullet Resist (Conditional)"]
     ]
   }
 }

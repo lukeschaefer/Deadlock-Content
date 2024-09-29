@@ -12,7 +12,7 @@ export const RESTORATIVE_LOCKET: ItemDescription = {
     description: "When an enemy uses an ability within 50m range from you, store one Restoration Stack."
   },
   active: {
-    description: "Consume all stacks to heal target ally. If used at the max stacks it replenishes a stamina point on the target. Can be self-cast.",
+    description: "Consume all stacks to heal target ally and resotre a stamina point. Can be self-cast.",
     cooldown: 28,
     details: [
       ["+", 35, "Heal per Stack"],

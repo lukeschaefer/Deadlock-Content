@@ -8,7 +8,7 @@ export const RAPID_RECHARGE: ItemDescription = {
   stats: [
     [2, '', "Bonus Ability Charges"],
     [55, '%', "Time Between Charges Reduction"],
-    [25, '%', "Charged Ability Cooldown Reduction"],
+    [30, '%', "Charged Ability Cooldown Reduction"],
     [12, '%', "Weapon Damage"]
   ],
   preReq: () => EXTRA_CHARGE

@@ -5,7 +5,7 @@ export const ESCALATING_RESILIENCE: ItemDescription = {
   type: 'weapon',
   tier: 3,
   stats: [
-    [14, '%', "Fire Rate"],
+    [12, '%', "Fire Rate"],
     [14, '%', "Weapon Damage"]
   ],
   passive: {

@@ -10,6 +10,7 @@ export const MELEE_CHARGE: ItemDescription = {
     [1, '', "Health Regen"]
   ],
   passive: {
-    description: "Increases your Heavy Melee charge distance. When you perform a Heavy Melee attack against an enemy, your weapon reloads instantly."
+    description: "Increases your Heavy Melee charge distance. When you perform a Heavy Melee attack against an enemy, your weapon reloads instantly.",
+    cooldown: 10,
   }
 }
