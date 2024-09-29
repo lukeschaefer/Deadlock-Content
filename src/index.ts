@@ -1,5 +1,6 @@
 import { Item, ItemDescription } from "./items/Item";
 import { ALL_SPIRIT_ITEMS } from "./items/spirit/index";
+import { Tier, TierList, Tiers } from "./items/Tiers";
 import { ALL_VITALITY_ITEMS } from "./items/vitality/index";
 import { ALL_WEAPON_ITEMS } from "./items/weapon/index";
 
@@ -37,6 +38,9 @@ export {
   ALL_WEAPON_ITEMS,
   Item,
   ItemDescription,
+  Tier,
+  Tiers,
+  TierList
 }
 
 export const ALL_ITEMS = [
