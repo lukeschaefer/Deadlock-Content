@@ -1,7 +1,8 @@
 {
     "compilerOptions": {
       "outDir": "dist",
-      "target": "ES2019",
+      "module": "CommonJS", // or "ES6"
+      "target": "ES2020", // or a version that supports modules
       "moduleResolution": "Node",
       "esModuleInterop": true,
       "forceConsistentCasingInFileNames": true,
@@ -11,7 +12,6 @@
       "declaration": true,
       "declarationMap": true,
       "rootDir": "src",
-     "module": "umd"
     },
     "include": ["src/**/*"]
   }

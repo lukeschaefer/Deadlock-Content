@@ -1,4 +1,4 @@
-import { Item, ItemDescription } from "./items/Item";
+import { Ability, Affect, Item, ItemDescription, StatChange } from "./items/Item";
 import { ALL_SPIRIT_ITEMS } from "./items/spirit/index";
 import { Tier, TierList, Tiers } from "./items/Tiers";
 import { ALL_VITALITY_ITEMS } from "./items/vitality/index";
@@ -40,7 +40,10 @@ export {
   ItemDescription,
   Tier,
   Tiers,
-  TierList
+  TierList,
+  StatChange,
+  Ability,
+  Affect,
 }
 
 export const ALL_ITEMS = [

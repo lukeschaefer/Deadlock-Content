@@ -1,0 +1,9 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "outDir": "dist/esm",
+      "module": "ES6",
+      "declaration": false, // Prevent overwriting .d.ts files
+      "declarationMap": false // Prevent overwriting .d.ts.map files
+    }
+  }

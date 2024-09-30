@@ -1,21 +1,18 @@
 {
   "name": "deadlock-content",
-  "version": "2024.9.26-a",
+  "version": "2024.9.26-d",
   "description": "Provides a structured way to access information about skills and items in the game Deadlock",
-  "main": "dist/index",
+  "main": "dist/index.js",
+  "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "type": "module",
+  "files": [ "dist" ],
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && tsc -p tsconfig.esm.json",
     "test": "npx tsx test/test.ts"
   },
   "author": "",
   "license": "ISC",
-  "exports": {
-    ".": "./dist/index.js"
-  },
   "devDependencies": {
     "typescript": "^4.9.5"
   }
