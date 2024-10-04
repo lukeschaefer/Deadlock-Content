@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const METAL_SKIN: ItemDescription = {
   name: 'Metal Skin',
+  id: 1378931225,
   type: 'vitality',
   tier: 3,
   stats: [

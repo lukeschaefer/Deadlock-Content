@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const HEALBANE: ItemDescription = {
   name: 'Healbane',
+  id: 2603935618,
   type: 'vitality',
   tier: 2,
   stats: [

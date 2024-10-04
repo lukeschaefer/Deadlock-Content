@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const TESLA_BULLETS: ItemDescription = {
   name: 'Tesla Bullets',
+  id: 811521119,
   type: 'weapon',
   tier: 3,
   stats: [

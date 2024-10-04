@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const INTENSIFYING_MAGAZINE: ItemDescription = {
   name: 'Intensifying Magazine',
+  id: 2407033488,
   type: 'weapon',
   tier: 3,
   stats: [

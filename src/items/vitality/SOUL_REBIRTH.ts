@@ -2,6 +2,7 @@ import { ItemDescription, NEGATIVE } from "../Item";
 
 export const SOUL_REBIRTH: ItemDescription = {
   name: 'Soul Rebirth',
+  id: 4003032160,
   type: 'vitality',
   tier: 4,
   stats: [

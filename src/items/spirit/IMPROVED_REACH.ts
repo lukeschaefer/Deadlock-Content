@@ -3,6 +3,7 @@ import { MYSTIC_REACH } from "./MYSTIC_REACH";
 
 export const IMPROVED_REACH: ItemDescription = {
   name: 'Improved Reach',
+  id: 1193964439,
   type: 'spirit',
   tier: 3,
   stats: [

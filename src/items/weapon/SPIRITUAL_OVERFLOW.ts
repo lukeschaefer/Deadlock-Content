@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const SPIRITUAL_OVERFLOW: ItemDescription = {
   name: 'Spiritual Overflow',
+  id: 2226497419,
   type: 'weapon',
   tier: 4,
   stats: [

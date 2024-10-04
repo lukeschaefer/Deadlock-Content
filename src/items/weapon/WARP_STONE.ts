@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const WARP_STONE: ItemDescription = {
   name: 'Warp Stone',
+  id: 3270001687,
   type: 'weapon',
   tier: 3,
   stats: [

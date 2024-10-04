@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const TORMENT_PULSE: ItemDescription = {
   name: 'Torment Pulse',
+  id: 395944548,
   type: 'spirit',
   tier: 3,
   stats: [

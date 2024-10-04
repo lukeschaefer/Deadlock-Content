@@ -3,6 +3,7 @@ import { POINT_BLANK } from "./POINT_BLANK";
 
 export const CLOSE_QUARTERS: ItemDescription = {
   name: 'Close Quarters',
+  id: 1342610602,
   type: 'weapon',
   tier: 1,
   stats: [

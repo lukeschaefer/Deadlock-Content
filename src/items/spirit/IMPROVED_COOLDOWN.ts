@@ -3,6 +3,7 @@ import { SUPERIOR_COOLDOWN } from "./SUPERIOR_COOLDOWN";
 
 export const IMPROVED_COOLDOWN: ItemDescription = {
   name: 'Improved Cooldown',
+  id: 380806748,
   type: 'spirit',
   tier: 2,
   stats: [

@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const ESCALATING_RESILIENCE: ItemDescription = {
   name: 'Escalating Resilience',
+  id: 2463960640,
   type: 'weapon',
   tier: 3,
   stats: [

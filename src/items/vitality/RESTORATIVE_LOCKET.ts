@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const RESTORATIVE_LOCKET: ItemDescription = {
   name: 'Restorative Locket',
+  id: 2059712766,
   type: 'vitality',
   tier: 2,
   stats: [

@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const SILENCE_GLYPH: ItemDescription = {
   name: 'Silence Glyph',
+  id: 619484391,
   type: 'spirit',
   tier: 3,
   stats: [

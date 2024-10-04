@@ -3,6 +3,7 @@ import { SPIRIT_ARMOR } from "./SPIRIT_ARMOR";
 
 export const IMPROVED_SPIRIT_ARMOR: ItemDescription = {
   name: 'Improved Spirit Armor',
+  id: 2163598980,
   type: 'vitality',
   tier: 3,
   stats: [

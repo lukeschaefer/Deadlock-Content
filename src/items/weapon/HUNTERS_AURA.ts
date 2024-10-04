@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const HUNTERS_AURA: ItemDescription = {
   name: "Hunter's Aura",
+  id: 2481177645,
   type: 'weapon',
   tier: 3,
   stats: [

@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const MAGIC_CARPET: ItemDescription = {
   name: 'Magic Carpet',
+  id: 2800629741,
   type: 'spirit',
   tier: 4,
   stats: [

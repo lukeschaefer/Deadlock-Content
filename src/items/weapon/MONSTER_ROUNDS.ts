@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const MONSTER_ROUNDS: ItemDescription = {
   name: 'Monster Rounds',
+  id: 1009965641,
   type: 'weapon',
   tier: 1,
   stats: [

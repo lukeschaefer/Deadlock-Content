@@ -3,6 +3,7 @@ import { HIGH_VELOCITY_MAG } from "./HIGH_VELOCITY_MAG";
 
 export const PRISTINE_EMBLEM: ItemDescription = {
   name: 'Pristine Emblem',
+  id: 2064029594,
   type: 'weapon',
   tier: 3,
   stats: [

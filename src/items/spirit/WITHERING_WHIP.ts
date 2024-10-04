@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const WITHERING_WHIP: ItemDescription = {
   name: 'Withering Whip',
+  id: 2922054143,
   type: 'spirit',
   tier: 2,
   stats: [

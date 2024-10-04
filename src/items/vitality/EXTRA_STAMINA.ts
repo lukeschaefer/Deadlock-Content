@@ -3,6 +3,7 @@ import { SUPERIOR_STAMINA } from "./SUPERIOR_STAMINA";
 
 export const EXTRA_STAMINA: ItemDescription = {
   name: 'Extra Stamina',
+  id: 4139877411,
   type: 'vitality',
   tier: 1,
   stats: [

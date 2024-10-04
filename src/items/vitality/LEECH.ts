@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const LEECH: ItemDescription = {
   name: 'Leech',
+  id: 865846625,
   type: 'vitality',
   tier: 4,
   stats: [

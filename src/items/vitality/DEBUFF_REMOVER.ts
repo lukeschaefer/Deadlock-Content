@@ -3,6 +3,7 @@ import { DEBUFF_REDUCER } from "./DEBUFF_REDUCER";
 
 export const DEBUFF_REMOVER: ItemDescription = {
   name: 'Debuff Remover',
+  id: 3731635960,
   type: 'vitality',
   tier: 3,
   stats: [

@@ -3,6 +3,7 @@ import { RAPID_RECHARGE } from "./RAPID_RECHARGE";
 
 export const EXTRA_CHARGE: ItemDescription = {
   name: 'Extra Charge',
+  id: 3776945997,
   type: 'spirit',
   tier: 1,
   stats: [

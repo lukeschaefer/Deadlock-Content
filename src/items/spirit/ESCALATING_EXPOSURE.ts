@@ -3,6 +3,7 @@ import { MYSTIC_VULNERABILITY } from "./MYSTIC_VULNERABILITY";
 
 export const ESCALATING_EXPOSURE: ItemDescription = {
   name: 'Escalating Exposure',
+  id: 3005970438,
   type: 'spirit',
   tier: 4,
   stats: [

@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const REACTIVE_BARRIER: ItemDescription = {
   name: 'Reactive Barrier',
+  id: 1644605047,
   type: 'vitality',
   tier: 2,
   stats: [

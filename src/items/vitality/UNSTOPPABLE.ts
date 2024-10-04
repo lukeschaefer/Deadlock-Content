@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const UNSTOPPABLE: ItemDescription = {
   name: 'Unstoppable',
+  id: 3357231760,
   type: 'vitality',
   tier: 4,
   stats: [

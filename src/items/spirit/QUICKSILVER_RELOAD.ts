@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const QUICKSILVER_RELOAD: ItemDescription = {
   name: 'Quicksilver Reload',
+  id: 84321454,
   type: 'spirit',
   tier: 2,
   stats: [

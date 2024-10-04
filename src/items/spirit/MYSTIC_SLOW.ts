@@ -3,6 +3,7 @@ import { SUPPRESSOR } from "./SUPPRESSOR";
 
 export const MYSTIC_SLOW: ItemDescription = {
   name: 'Mystic Slow',
+  id: 1102081447,
   type: 'spirit',
   tier: 3,
   stats: [

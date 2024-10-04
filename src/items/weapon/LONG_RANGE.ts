@@ -3,6 +3,7 @@ import { SHARPSHOOTER } from "./SHARPSHOOTER";
 
 export const LONG_RANGE: ItemDescription = {
   name: 'Long Range',
+  id: 3331811235,
   type: 'weapon',
   tier: 2,
   stats: [

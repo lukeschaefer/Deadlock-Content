@@ -3,6 +3,7 @@ import { MELEE_LIFESTEAL } from "./MELEE_LIFESTEAL";
 
 export const LIFESTRIKE: ItemDescription = {
   name: 'Lifestrike',
+  id: 1252627263,
   type: 'vitality',
   tier: 3,
   stats: [

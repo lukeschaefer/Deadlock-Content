@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const GLASS_CANNON: ItemDescription = {
   name: 'Glass Cannon',
+  id: 365620721,
   type: 'weapon',
   tier: 4,
   stats: [

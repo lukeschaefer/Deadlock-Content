@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const CRIPPLING_HEADSHOT: ItemDescription = {
   name: 'Crippling Headshot',
+  id: 3884003354,
   type: 'weapon',
   tier: 4,
   stats: [

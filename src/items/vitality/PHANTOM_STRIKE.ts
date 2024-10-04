@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const PHANTOM_STRIKE: ItemDescription = {
   name: 'Phantom Strike',
+  id: 1371725689,
   type: 'vitality',
   tier: 4,
   stats: [

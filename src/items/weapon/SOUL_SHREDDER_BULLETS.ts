@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const SOUL_SHREDDER_BULLETS: ItemDescription = {
   name: 'Soul Shredder Bullets',
+  id: 1144549437,
   type: 'weapon',
   tier: 2,
   stats: [

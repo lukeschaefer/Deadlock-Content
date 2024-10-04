@@ -3,6 +3,7 @@ import { SUPERIOR_DURATION } from "./SUPERIOR_DURATION";
 
 export const ECHO_SHARD: ItemDescription = {
   name: 'Echo Shard',
+  id: 630839635,
   type: 'spirit',
   tier: 4,
   stats: [

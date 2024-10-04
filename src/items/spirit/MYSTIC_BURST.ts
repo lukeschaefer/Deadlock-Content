@@ -3,6 +3,7 @@ import { IMPROVED_BURST } from "./IMPROVED_BURST";
 
 export const MYSTIC_BURST: ItemDescription = {
   name: 'Mystic Burst',
+  id: 1998374645,
   type: 'spirit',
   tier: 1,
   stats: [

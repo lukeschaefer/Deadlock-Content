@@ -3,6 +3,7 @@ import { HEADHUNTER } from "./HEADHUNTER";
 
 export const HEADSHOT_BOOSTER: ItemDescription = {
   name: 'Headshot Booster',
+  id: 2010028405,
   type: 'weapon',
   tier: 1,
   stats: [

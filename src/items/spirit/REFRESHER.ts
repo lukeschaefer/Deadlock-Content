@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const REFRESHER: ItemDescription = {
   name: 'Refresher',
+  id: 677738769,
   type: 'spirit',
   tier: 4,
   stats: [

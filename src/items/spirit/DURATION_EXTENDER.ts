@@ -3,6 +3,7 @@ import { SUPERIOR_DURATION } from "./SUPERIOR_DURATION";
 
 export const DURATION_EXTENDER: ItemDescription = {
   name: 'Duration Extender',
+  id: 2951612397,
   type: 'spirit',
   tier: 2,
   stats: [

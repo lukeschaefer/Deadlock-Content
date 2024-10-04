@@ -3,6 +3,7 @@ import { BULLET_ARMOR } from "./BULLET_ARMOR";
 
 export const IMPROVED_BULLET_ARMOR: ItemDescription = {
   name: 'Improved Bullet Armor',
+  id: 3140772621,
   type: 'vitality',
   tier: 3,
   stats: [

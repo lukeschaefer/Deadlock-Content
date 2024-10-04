@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const ETHEREAL_SHIFT: ItemDescription = {
   name: 'Ethereal Shift',
+  id: 2533252781,
   type: 'spirit',
   tier: 3,
   stats: [],

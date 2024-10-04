@@ -3,6 +3,7 @@ import { HEALING_RITE } from "./HEALING_RITE";
 
 export const HEALTH_NOVA: ItemDescription = {
   name: 'Health Nova',
+  id: 2956256701,
   type: 'vitality',
   tier: 2,
   stats: [

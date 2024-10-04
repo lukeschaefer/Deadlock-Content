@@ -3,6 +3,7 @@ import { IMPROVED_SPIRIT } from "./IMPROVED_SPIRIT";
 
 export const BOUNDLESS_SPIRIT: ItemDescription = {
   name: 'Boundless Spirit',
+  id: 3612042342,
   type: 'spirit',
   tier: 4,
   stats: [

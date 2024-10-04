@@ -3,6 +3,7 @@ import { EXTRA_SPIRIT } from "./EXTRA_SPIRIT";
 
 export const IMPROVED_SPIRIT: ItemDescription = {
   name: 'Improved Spirit',
+  id: 7409189,
   type: 'spirit',
   tier: 3,
   stats: [

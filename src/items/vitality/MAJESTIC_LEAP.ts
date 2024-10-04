@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const MAJESTIC_LEAP: ItemDescription = {
   name: 'Majestic Leap',
+  id: 600033864,
   type: 'vitality',
   tier: 3,
   stats: [

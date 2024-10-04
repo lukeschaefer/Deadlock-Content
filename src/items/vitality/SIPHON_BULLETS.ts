@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const SIPHON_BULLETS: ItemDescription = {
   name: 'Siphon Bullets',
+  id: 1282141666,
   type: 'vitality',
   tier: 4,
   stats: [

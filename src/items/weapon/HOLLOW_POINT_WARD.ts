@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const HOLLOW_POINT_WARD: ItemDescription = {
   name: 'Hollow Point Ward',
+  id: 2678489038,
   type: 'weapon',
   tier: 1,
   stats: [

@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const INFUSER: ItemDescription = {
   name: 'Infuser',
+  id: 1797283378,
   type: 'spirit',
   tier: 1,
   stats: [

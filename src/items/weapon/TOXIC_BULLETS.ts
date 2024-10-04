@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const TOXIC_BULLETS: ItemDescription = {
   name: 'Toxic Bullets',
+  id: 3696726732,
   type: 'weapon',
   tier: 3,
   stats: [

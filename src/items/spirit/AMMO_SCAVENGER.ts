@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const AMMO_SCAVENGER : ItemDescription = {
   name: 'Ammo Scavenger',
+  id: 1248737459,
   type: 'spirit',
   tier: 1,
   stats: [

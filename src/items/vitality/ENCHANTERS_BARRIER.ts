@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const ENCHANTERS_BARRIER: ItemDescription = {
   name: "Enchanter's Barrier",
+  id: 3970837787,
   type: 'vitality',
   tier: 2,
   stats: [

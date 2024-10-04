@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const MYSTIC_REVERB: ItemDescription = {
   name: 'Mystic Reverb',
+  id: 869090587,
   type: 'spirit',
   tier: 4,
   stats: [

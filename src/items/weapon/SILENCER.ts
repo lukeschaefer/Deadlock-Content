@@ -3,6 +3,7 @@ import { SLOWING_BULLETS } from "./SLOWING_BULLETS";
 
 export const SILENCER: ItemDescription = {
   name: 'Silencer',
+  id: 3133167885,
   type: 'weapon',
   tier: 4,
   stats: [

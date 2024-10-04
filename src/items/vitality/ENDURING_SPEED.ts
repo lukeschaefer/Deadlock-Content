@@ -3,6 +3,7 @@ import { SPRINT_BOOTS } from "./SPRINT_BOOTS";
 
 export const ENDURING_SPEED: ItemDescription = {
   name: 'Enduring Speed',
+  id: 2447176615,
   type: 'vitality',
   tier: 2,
   stats: [

@@ -6,6 +6,8 @@ type ShorthandTier = 1 | 2 | 3 | 4;
 export class Item {
   name: string;
   type: string;
+  // ID used within the game to reference the item.
+  id: number;
   tier: Tier;
   passive?: Ability;
   active?: Ability;
@@ -13,6 +15,7 @@ export class Item {
 
   constructor(public description: ItemDescription) {
     this.name = description.name;
+    this.id = description.id;
     this.type = description.type;
     this.tier = TierList[description.tier - 1];
     this.passive = convertAbility(description.passive);
@@ -115,7 +118,8 @@ type AffectTupleWithoutUnitNorOrdinal = [number, string]
 export type AffectTuple = FullAffectTuple | AffectTupleWithoutOrdinal | AffectTupleWithoutUnit | AffectTupleWithoutUnitNorOrdinal;
 export type DeferredItemReference = () => ItemDescription;
 export interface ItemDescription {
-  type: "weapon" | "spirit" | "vitality"
+  type: "weapon" | "spirit" | "vitality",
+  id: number,
   name: string,
   tier: ShorthandTier,
   stats?: StatChangeTuple[],

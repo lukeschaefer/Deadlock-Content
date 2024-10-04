@@ -4,6 +4,7 @@ import { HIGH_VELOCITY_MAG } from "./HIGH_VELOCITY_MAG";
 
 export const HEADHUNTER: ItemDescription = {
   name: 'Headhunter',
+  id: 4053935515,
   type: 'weapon',
   tier: 3,
   stats: [

@@ -3,6 +3,7 @@ import { BASIC_MAGAZINE } from "./BASIC_MAGAZINE";
 
 export const TITANIC_MAGAZINE: ItemDescription = {
   name: 'Titanic Magazine',
+  id: 2356412290,
   type: 'weapon',
   tier: 3,
   stats: [

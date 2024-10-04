@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const VAMPIRIC_BURST: ItemDescription = {
   name: 'Vampiric Burst',
+  id: 1055679805,
   type: 'weapon',
   tier: 4,
   stats: [

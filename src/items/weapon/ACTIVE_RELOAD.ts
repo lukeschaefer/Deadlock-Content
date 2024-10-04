@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const ACTIVE_RELOAD: ItemDescription = {
   name: 'Active Reload',
+  id: 381961617,
   type: 'weapon',
   tier: 2,
   stats: [

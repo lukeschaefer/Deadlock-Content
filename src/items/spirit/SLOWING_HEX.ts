@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const SLOWING_HEX: ItemDescription = {
   name: 'Slowing Hex',
+  id: 1813726886,
   type: 'spirit',
   tier: 2,
   stats: [

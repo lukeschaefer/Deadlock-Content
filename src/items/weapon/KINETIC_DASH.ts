@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const KINETIC_DASH: ItemDescription = {
   name: 'Kinetic Dash',
+  id: 3977876567,
   type: 'weapon',
   tier: 2,
   stats: [

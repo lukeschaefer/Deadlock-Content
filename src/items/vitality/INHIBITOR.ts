@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const INHIBITOR: ItemDescription = {
   name: 'Inhibitor',
+  id: 2037039379,
   type: 'vitality',
   tier: 4,
   stats: [

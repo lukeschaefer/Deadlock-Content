@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const RESTORATIVE_SHOT: ItemDescription = {
   name: 'Restorative Shot',
+  id: 3862866912,
   type: 'weapon',
   tier: 1,
   stats: [

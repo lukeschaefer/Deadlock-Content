@@ -2,6 +2,7 @@ import { ItemDescription } from "../Item";
 
 export const DIVINERS_KEVLAR: ItemDescription = {
   name: "Diviner's Kevlar",
+  id: 2820116164,
   type: 'spirit',
   tier: 4,
   stats: [
