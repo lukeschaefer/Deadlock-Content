@@ -1,5 +1,11 @@
-import {ALL_WEAPON_ITEMS} from '../dist';
+import { ALL_ITEMS, ALL_CHARACTERS} from '../dist/esm';
 
-ALL_WEAPON_ITEMS.forEach((item) => {
-    console.log(item.name);
-});
+try {
+  const all : string[] = [];
+  ALL_ITEMS.forEach((item) => all.push(item.name));
+  ALL_CHARACTERS.forEach((char) => all.push(char.name));
+  console.log("✅ ESM SUCCESS");
+} catch(e) {
+  console.error("❌ ESM ERROR");
+  console.error(e);
+}

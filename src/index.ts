@@ -1,11 +1,9 @@
+import { Character, ALL_CHARACTERS, PLAYABLE_CHARACTERS } from "./characters";
 import { Ability, Affect, Item, ItemDescription, StatChange } from "./items/Item";
 import { ALL_SPIRIT_ITEMS } from "./items/spirit/index";
 import { Tier, TierList, Tiers } from "./items/Tiers";
 import { ALL_VITALITY_ITEMS } from "./items/vitality/index";
 import { ALL_WEAPON_ITEMS } from "./items/weapon/index";
-import {version} from '../package.json';
-
-export const VERSION = version;
 
 // Passes into an array.sort() to sort items by tier, whether they have active, and then name.
 export function itemSort(a: Item, b: Item) {
@@ -46,6 +44,12 @@ export {
   StatChange,
   Ability,
   Affect,
+}
+
+export {
+  Character,
+  ALL_CHARACTERS,
+  PLAYABLE_CHARACTERS,
 }
 
 export const ALL_ITEMS = [
