@@ -15,7 +15,7 @@ Then in your code, import content like so:
 
 ```typescript
 import {ALL_ITEMS, PLAYABLE_CHARACTERS} from 'deadlock-content';
-`
+```
 
 
 
