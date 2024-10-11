@@ -6,8 +6,9 @@ export const RESTORATIVE_LOCKET: ItemDescription = {
   type: 'vitality',
   tier: 2,
   stats: [
-    [8, '%', "Spirit Resist"],
-    [5, '', "Spirit Power"]
+    [10, '%', "Spirit Resist"],
+    [5, '', "Spirit Power"],
+    [1, 'm/s', "Sprint Speed"]
   ],
   passive: {
     description: "When an enemy uses an ability within 50m range from you, store one Restoration Stack."

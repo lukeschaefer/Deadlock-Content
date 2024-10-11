@@ -8,7 +8,7 @@ export const SUPERIOR_STAMINA: ItemDescription = {
   tier: 3,
   stats: [
     [3, '', "Stamina"],
-    [20, '%', "Stamina Recovery"],
+    [25, '%', "Stamina Recovery"],
     [30, '%', "Air Jump Dash Distance"],
     [7, '%', "Fire Rate"],
     [8, '', "Spirit Power"]

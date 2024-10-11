@@ -6,7 +6,7 @@ export const FORTITUDE: ItemDescription = {
   type: 'vitality',
   tier: 3,
   stats: [
-    [300, '', "Bonus Health"]
+    [325, '', "Bonus Health"]
   ],
   passive: {
     description: "After not taking damage for 11s, gain 4% Max Health Regen.\n\nWhen you are above 75% health, you have bonus Weapon Damage and Movement Speed.",

@@ -13,8 +13,8 @@ export const AMMO_SCAVENGER : ItemDescription = {
     description: "Any time you secure or deny a Soul you get ammo back and gain stacking Spirit Power.",
     details: [
       ["+", 2, "Ammo Per Soul"],
-      ["+", 2, "Spirit Power Per Soul"],
-      [10, "Max Stacks"],
+      ["+", 1, "Spirit Power Per Soul"],
+      [20, "Max Stacks"],
       [30, "s", "Spirit Power Duration"],
     ]
   }

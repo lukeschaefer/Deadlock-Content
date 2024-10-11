@@ -15,7 +15,7 @@ export const MYSTIC_REVERB: ItemDescription = {
     cooldown: 6,
     details: [
       [40, "%", "Damage (Conditional)"],
-      [50, "%", "Movement Slow (Conditional)"],
+      [40, "%", "Movement Slow (Conditional)"],
       [16, "m", "Radius"],
       [3, "s", "Delay Duration"]
     ]

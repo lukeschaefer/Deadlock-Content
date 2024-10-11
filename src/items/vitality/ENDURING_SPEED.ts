@@ -7,7 +7,7 @@ export const ENDURING_SPEED: ItemDescription = {
   type: 'vitality',
   tier: 2,
   stats: [
-    [1.4, 'm/s', "Movement Speed"],
+    [1.1, 'm/s', "Movement Speed"],
     [2, 'm/s', "Sprint Speed"],
     [75, '', "Bonus Health"],
     [1.5, '', "Health Regen"]
@@ -15,7 +15,7 @@ export const ENDURING_SPEED: ItemDescription = {
   passive: {
     description: "Reduces the effects of enemy Movement Slow.",
     details: [
-      ["+", 40, "%", "Movement Slow Resist"]
+      ["+", 35, "%", "Movement Slow Resist"]
     ]
   },
   preReq: () => SPRINT_BOOTS

@@ -11,6 +11,6 @@ export const REFRESHER: ItemDescription = {
   ],
   active: {
     description: "Reset the cooldown of all your abilities and restore all your charges.",
-    cooldown: 197
+    cooldown: 230
   }
 }

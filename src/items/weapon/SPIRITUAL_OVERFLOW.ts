@@ -6,7 +6,6 @@ export const SPIRITUAL_OVERFLOW: ItemDescription = {
   type: 'weapon',
   tier: 4,
   stats: [
-    [20, '%', "Fire Rate"],
     [15, '%', "Cooldown Reduction"],
     [10, '%', "Spirit Lifesteal"],
     [250, '', "Bullet Shield"]
@@ -14,7 +13,8 @@ export const SPIRITUAL_OVERFLOW: ItemDescription = {
   passive: {
     description: "Gain bonus Spirit Power by charging up with your bullets on enemy heroes.",
     details: [
-      [45, "Spirit Power (Conditional)"],
+      [50, "Spirit Power (Conditional)"],
+      [30, '%', "Fire Rate"],
       [0.8, "%", "Buildup Per Shot"],
       [18, "s", "Duration"]
     ]

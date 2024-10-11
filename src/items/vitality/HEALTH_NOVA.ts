@@ -9,7 +9,7 @@ export const HEALTH_NOVA: ItemDescription = {
   stats: [
     [12, '%', "Weapon Damage"],
     [100, '', "Bonus Health"],
-    [4, '', "Spirit Power"]
+    [6, '', "Spirit Power"]
   ],
   active: {
     description: "Heal yourself and nearby allies. Heals an additional 20% per ally.",

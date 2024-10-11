@@ -12,7 +12,7 @@ export const KNOCKDOWN: ItemDescription = {
   ],
   active: {
     description: "Target is knocked down and Stunned after a 2s delay, interrupting and temporarily preventing them from taking any action.",
-    cooldown: 45,
+    cooldown: 40,
     details: [
       [0.9, "s", "Stun Duration"],
       [45, "m", "Cast Range"]

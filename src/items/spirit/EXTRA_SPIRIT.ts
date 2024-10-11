@@ -7,7 +7,7 @@ export const EXTRA_SPIRIT: ItemDescription = {
   type: 'spirit',
   tier: 1,
   stats: [
-    [9, '', "Spirit Power"],
+    [10, '', "Spirit Power"],
     [1, '', "Health Regen"],
     [35, '', "Bonus Health"]
   ],

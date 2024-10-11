@@ -16,7 +16,7 @@ export const HEALING_RITE: ItemDescription = {
     details: [
       [370, "Total Health Regen"],
       ["+", 2, "m/s", "Sprint Speed"],
-      [17, "s", "Regen Duration"],
+      [19, "s", "Regen Duration"],
       [30, "m", "Cast Range"]
     ]
   },

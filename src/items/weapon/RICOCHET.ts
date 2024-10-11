@@ -15,7 +15,7 @@ export const RICOCHET: ItemDescription = {
     details: [
       [60, "%", "Ricochet Damage"],
       [2, "Ricochet Targets"],
-      [14, "m", "Ricochet Range"]
+      [11, "m", "Ricochet Range"]
     ]
   }
 }

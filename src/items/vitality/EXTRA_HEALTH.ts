@@ -7,6 +7,6 @@ export const EXTRA_HEALTH: ItemDescription = {
   tier: 1,
   stats: [
     [160, '', "Bonus Health"],
-    [5, '%', "Weapon Damage"]
+    [6, '%', "Weapon Damage"]
   ]
 }

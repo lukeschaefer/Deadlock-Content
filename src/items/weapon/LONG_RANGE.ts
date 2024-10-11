@@ -7,7 +7,7 @@ export const LONG_RANGE: ItemDescription = {
   type: 'weapon',
   tier: 2,
   stats: [
-    [20, '%', "Ammo"],
+    [25, '%', "Ammo"],
     [90, '', "Bullet Shield Health"]
   ],
   passive: {

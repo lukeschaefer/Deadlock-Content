@@ -7,7 +7,7 @@ export const IMPROVED_SPIRIT: ItemDescription = {
   type: 'spirit',
   tier: 3,
   stats: [
-    [23, '', "Spirit Power"],
+    [28, '', "Spirit Power"],
     [2, '', "Health Regen"],
     [1, 'm/s', "Sprint Speed"],
     [75, '', "Bonus Health"]

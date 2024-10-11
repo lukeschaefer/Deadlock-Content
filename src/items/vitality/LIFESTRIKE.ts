@@ -12,7 +12,7 @@ export const LIFESTRIKE: ItemDescription = {
     [8, '%', "Bullet Resist"]
   ],
   passive: {
-    description: "Your Melee Attack applies Movement Slow and heals you for 55% of the Melee Damage dealt plus 110. This heal is 40% effective vs non-heroes.",
+    description: "Your Melee Attack applies Movement Slow and heals you for 65% of the Melee Damage dealt plus 110. This heal is 40% effective vs non-heroes.",
     cooldown: 5,
     details: [
       [60, "%", "Movement Slow (Conditional)"],

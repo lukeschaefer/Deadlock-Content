@@ -6,8 +6,8 @@ export const EXTRA_REGEN: ItemDescription = {
   type: 'vitality',
   tier: 1,
   stats: [
-    [2.8, '', "Health Regen"],
-    [8, '%', "Ammo"],
+    [3, '', "Health Regen"],
+    [10, '%', "Ammo"],
     [25, '', "Bonus Health"]
   ]
 }

@@ -12,11 +12,11 @@ export const VAMPIRIC_BURST: ItemDescription = {
   ],
   active: {
     description: "Grants Lifesteal, Fire Rate, and Ammo. This added Ammo is not limited by your max magazine size.",
-    cooldown: 35,
+    cooldown: 34,
     details: [
       [100, "%", "Bullet Lifesteal"],
       [40, "%", "Fire Rate"],
-      [50, "%", "Ammo"],
+      [75, "%", "Ammo"],
       [4.5, "s", "Duration"]
     ]
   }

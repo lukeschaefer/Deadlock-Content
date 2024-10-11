@@ -7,12 +7,12 @@ export const WITHERING_WHIP: ItemDescription = {
   tier: 2,
   stats: [
     [6, '', "Spirit Power"],
-    [50, '', "Bonus Health"],
+    [100, '', "Bullet Shield"],
     [1, 'Sprint']
   ],
   active: {
     description: "Target an enemy to apply Fire Rate Slow and reduce their Bullet Resist.",
-    cooldown: 26,
+    cooldown: 22,
     details: [
       ["-", 45, "%", "Fire Rate Slow"],
       ["-", 14, "%", "Bullet Resist"],

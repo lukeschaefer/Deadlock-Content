@@ -12,6 +12,6 @@ export const MELEE_CHARGE: ItemDescription = {
   ],
   passive: {
     description: "Increases your Heavy Melee charge distance. When you perform a Heavy Melee attack against an enemy, your weapon reloads instantly.",
-    cooldown: 10,
+    cooldown: 16,
   }
 }

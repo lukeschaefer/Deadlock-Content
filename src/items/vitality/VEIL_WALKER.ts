@@ -15,7 +15,7 @@ export const VEIL_WALKER: ItemDescription = {
     description: "Walking through a cosmic veil grants you Stealth, increased Movement Speed, restores all Bullet and Spirit Shields, and grants bonus Fire Rate for your next magazine.",
     cooldown: 17,
     details: [
-      ["+", 3, "m/s", "Invis Move Speed (Conditional)"],
+      ["+", 4, "m/s", "Invis Move Speed (Conditional)"],
       [5, "s", "Invisibility Duration"]
     ]
   }

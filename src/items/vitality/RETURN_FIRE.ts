@@ -11,9 +11,9 @@ export const RETURN_FIRE: ItemDescription = {
   ],
   active: {
     description: "Automatically fire a bullet towards any attacker who damages you with their abilities or weapon.",
-    cooldown: 24,
+    cooldown: 30,
     details: [
-      [25, "%", "Bullet Resistance"],
+      [20, "%", "Bullet Resistance"],
       [60, "%", "Bullet Damage Returned"],
       [30, "%", "Spirit Damage Returned"],
       [7, "s", "Duration"]

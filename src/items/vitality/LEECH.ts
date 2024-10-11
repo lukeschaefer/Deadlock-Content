@@ -9,7 +9,7 @@ export const LEECH: ItemDescription = {
     [35, '%', "Spirit Lifesteal"],
     [35, '%', "Bullet Lifesteal"],
     [175, '', "Bonus Health"],
-    [12, '', "Spirit Power"],
-    [15, '%', "Weapon Damage"]
+    [18, '', "Spirit Power"],
+    [20, '%', "Weapon Damage"]
   ]
 }

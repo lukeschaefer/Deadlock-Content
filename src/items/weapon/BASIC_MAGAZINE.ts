@@ -7,7 +7,7 @@ export const BASIC_MAGAZINE: ItemDescription = {
   type: 'weapon',
   tier: 1,
   stats: [
-    [24, '%', "Ammo"],
+    [26, '%', "Ammo"],
     [15, '%', "Weapon Damage"]
   ],
   buildsInto: () => TITANIC_MAGAZINE

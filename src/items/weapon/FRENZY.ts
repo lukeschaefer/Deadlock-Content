@@ -11,7 +11,7 @@ export const FRENZY: ItemDescription = {
     [200, '', "Bonus Health"]
   ],
   passive: {
-    description: "While you are below 40% health, you gain stat bonuses.",
+    description: "While you are below 50% health, you gain stat bonuses.",
     details: [
       [4, "m/s", "Movement Speed (Conditional)"],
       [40, "%", "Fire Rate (Conditional)"],

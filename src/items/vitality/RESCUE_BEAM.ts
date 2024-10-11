@@ -16,7 +16,7 @@ export const RESCUE_BEAM: ItemDescription = {
     details: [
       [30, "%", "Heal Amount"],
       [2.5, "s", "Channel Duration"],
-      [45, "m", "Cast Range"]
+      [32, "m", "Cast Range"]
     ]
   }
 }
