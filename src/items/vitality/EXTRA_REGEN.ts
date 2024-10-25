@@ -8,6 +8,5 @@ export const EXTRA_REGEN: ItemDescription = {
   stats: [
     [3, '', "Health Regen"],
     [10, '%', "Ammo"],
-    [25, '', "Bonus Health"]
   ]
 }

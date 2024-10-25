@@ -8,7 +8,7 @@ export const BULLET_RESIST_SHREDDER: ItemDescription = {
   stats: [
     [8, '', "Spirit Power"],
     [100, '', "Bonus Health"],
-    [5, '%', "Bullet Resist"]
+    [15, '%', "Melee Resist"]
   ],
   passive: {
     description: "Reduces Bullet Resist on enemies when you deal Spirit Damage.",

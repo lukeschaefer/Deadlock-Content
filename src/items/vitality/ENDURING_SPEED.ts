@@ -15,7 +15,7 @@ export const ENDURING_SPEED: ItemDescription = {
   passive: {
     description: "Reduces the effects of enemy Movement Slow.",
     details: [
-      ["+", 35, "%", "Movement Slow Resist"]
+      ["+", 30, "%", "Movement Slow Resist"]
     ]
   },
   preReq: () => SPRINT_BOOTS

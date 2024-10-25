@@ -6,14 +6,13 @@ export const SOUL_REBIRTH: ItemDescription = {
   type: 'vitality',
   tier: 4,
   stats: [
-    [18, '%', "Cooldown Reduction"],
     [20, '%', "Weapon Damage"],
     [12, '', "Spirit Power"],
     [15, 's', "Respawn Cooldown", NEGATIVE]
   ],
   passive: {
     description: "If you die, after 4s you will respawn at your death location with partial health.",
-    cooldown: 200,
+    cooldown: 240,
     details: [
       ["+", 50, "%", "Rebirth Health"]
     ]

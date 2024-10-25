@@ -6,9 +6,9 @@ export const MYSTIC_REVERB: ItemDescription = {
   type: 'spirit',
   tier: 4,
   stats: [
-    [15, '%', "Spirit Lifesteal"],
-    [15, '%', "Spirit Resist"],
-    [15, '%', "Ability Range"]
+    [14, '%', "Spirit Lifesteal"],
+    [14, '%', "Spirit Resist"],
+    [14, '%', "Ability Range"]
   ],
   passive: {
     description: "Imbue an ability to apply slow in a radius around the target and deal an additional percentage of the damage dealt to enemies around the target after a short delay.",

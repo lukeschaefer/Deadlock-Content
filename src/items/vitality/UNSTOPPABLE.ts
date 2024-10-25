@@ -7,8 +7,7 @@ export const UNSTOPPABLE: ItemDescription = {
   tier: 4,
   stats: [
     [150, '', "Bonus Health"],
-    [15, '%', "Spirit Resist"],
-    [1, 'm/s', "Movement Speed"],
+    [15, '%', "Bullet Resist"],
     [12, '', "Spirit Power"]
   ],
   active: {

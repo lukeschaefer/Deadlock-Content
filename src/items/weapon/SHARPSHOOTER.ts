@@ -7,7 +7,7 @@ export const SHARPSHOOTER: ItemDescription = {
   type: 'weapon',
   tier: 3,
   stats: [
-    [20, '%', "Ammo"],
+    [-20, '%', "Reload Time"],
     [15, '%', "Weapon Falloff Range"],
     [30, '%', "Weapon Zoom"],
     [175, '', "Bullet Shield"]

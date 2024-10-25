@@ -13,7 +13,7 @@ export const ESCALATING_EXPOSURE: ItemDescription = {
   passive: {
     description: "Dealing Spirit Damage applies a stacking Spirit Amp that increases your Spirit Damage to the target.",
     details: [
-      ["+", 5, "%", "Spirit Amp per Stack"],
+      ["+", 4, "%", "Spirit Amp per Stack"],
       [12, "s", "Duration"],
       [0.7, "s", "Max Frequency per Target"]
     ]

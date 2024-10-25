@@ -7,7 +7,7 @@ export const MONSTER_ROUNDS: ItemDescription = {
   tier: 1,
   stats: [
     [30, '%', "Weapon Damage vs NPCs"],
-    [30, '%', "Bullet Resist vs NPCs"],
+    [25, '%', "Bullet Resist vs NPCs"],
     [50, '', "Bonus Health"],
     [1, '', "Health Regen"]
   ]

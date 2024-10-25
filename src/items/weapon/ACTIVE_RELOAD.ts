@@ -7,7 +7,7 @@ export const ACTIVE_RELOAD: ItemDescription = {
   tier: 2,
   stats: [
     [10, '%', "Weapon Damage"],
-    [-20, '%', "Reload Time"]
+    [18, '%', "Ammo"]
   ],
   passive: {
     description: "While reloading, pressing [R] during the highlighted portion will instantly finish your reload and grant you Fire Rate and Bullet Lifesteal.",

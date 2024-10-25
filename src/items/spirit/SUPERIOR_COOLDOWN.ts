@@ -10,7 +10,7 @@ export const SUPERIOR_COOLDOWN: ItemDescription = {
     [32, '%', "Imbued Ability Cooldown Reduction"],
     [24, '%', "Non-Imbued Ability Cooldown Reduction"],
     [4, '', "Health Regen"],
-    [100, '', "Spirit Shield"]
+    [150, '', "Spirit Shield"]
   ],
   preReq: () => IMPROVED_COOLDOWN
 }

@@ -15,7 +15,7 @@ export const AMMO_SCAVENGER : ItemDescription = {
       ["+", 2, "Ammo Per Soul"],
       ["+", 1, "Spirit Power Per Soul"],
       [20, "Max Stacks"],
-      [30, "s", "Spirit Power Duration"],
+      [35, "s", "Spirit Power Duration"],
     ]
   }
 }

@@ -9,7 +9,8 @@ export const TITANIC_MAGAZINE: ItemDescription = {
   stats: [
     [100, '%', "Ammo"],
     [18, '%', "Weapon Damage"],
-    [15, '%', "Bullet Resist"]
+    [12, '%', "Spirit Resist"],
+    [25, '%', "Melee Damage Resist"]
   ],
   preReq: () => BASIC_MAGAZINE
 }

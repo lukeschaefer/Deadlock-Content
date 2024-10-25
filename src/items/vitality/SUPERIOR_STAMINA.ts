@@ -11,7 +11,7 @@ export const SUPERIOR_STAMINA: ItemDescription = {
     [25, '%', "Stamina Recovery"],
     [30, '%', "Air Jump Dash Distance"],
     [7, '%', "Fire Rate"],
-    [8, '', "Spirit Power"]
+    [12, '', "Spirit Power"]
   ],
   passive: {
     description: "Increases the number of Air Dashes and Air Jumps that can be performed before landing from 1 to 2."

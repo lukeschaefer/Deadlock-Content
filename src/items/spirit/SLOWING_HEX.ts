@@ -14,7 +14,7 @@ export const SLOWING_HEX: ItemDescription = {
     cooldown: 25,
     details: [
       [70, "", "Spirit Damage"], // (0.59 * Spirit Power)
-      [25, "%", "Movement Slow"],
+      [20, "%", "Movement Slow"],
       [25, "m", "Cast Range"],
       [3, "s", "Duration"]
     ]

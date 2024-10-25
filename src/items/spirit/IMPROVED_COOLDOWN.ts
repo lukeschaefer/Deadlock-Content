@@ -9,7 +9,8 @@ export const IMPROVED_COOLDOWN: ItemDescription = {
   stats: [
     [8, '', "Spirit Power"],
     [16, '%', "Cooldown Reduction"],
-    [1.5, '', "Health Regen"]
+    [1.5, '', "Health Regen"],
+    [75, 'Spirit Shield']
   ],
   buildsInto: () => SUPERIOR_COOLDOWN
 }

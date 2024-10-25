@@ -7,7 +7,7 @@ export const EXTRA_STAMINA: ItemDescription = {
   type: 'vitality',
   tier: 1,
   stats: [
-    [25, '', "Bonus Health"],
+    [35, '', "Bonus Health"],
     [1, '', "Stamina"],
     [16, '%', "Stamina Recovery"],
     [6, '%', "Fire Rate"]

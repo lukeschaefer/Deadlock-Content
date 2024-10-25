@@ -6,7 +6,7 @@ export const REACTIVE_BARRIER: ItemDescription = {
   type: 'vitality',
   tier: 2,
   stats: [
-    [15, '%', "Ammo"],
+    [20, '%', "Ammo"],
     [75, '', "Bonus Health"],
     [2, '', "Health Regen"]
   ],

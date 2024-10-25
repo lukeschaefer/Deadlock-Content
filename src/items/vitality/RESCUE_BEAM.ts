@@ -7,7 +7,7 @@ export const RESCUE_BEAM: ItemDescription = {
   tier: 3,
   stats: [
     [125, '', "Bonus Health"],
-    [2, 'm/s', "Sprint Speed"],
+    [1, 'm/s', "Sprint Speed"],
     [9, '', "Spirit Power"]
   ],
   active: {

@@ -7,7 +7,8 @@ export const BURST_FIRE: ItemDescription = {
   tier: 3,
   stats: [
     [12, '%', "Fire Rate"],
-    [50, '%', "Slide Distance"]
+    [50, '%', "Slide Distance"],
+    [20, '%', "Slow Resistance"],
   ],
   passive: {
     description: "Briefly gain Fire Rate and Move Speed when one of your bullets hits an enemy hero.",

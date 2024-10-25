@@ -11,6 +11,6 @@ export const MAJESTIC_LEAP: ItemDescription = {
   ],
   active: {
     description: "Launch yourself high into the air. While in the air, you can use the active again to drop down faster. Cannot be used for 5s if attacked by enemy Hero.",
-    cooldown: 26
+    cooldown: 45
   }
 }

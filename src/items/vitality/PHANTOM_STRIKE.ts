@@ -6,7 +6,7 @@ export const PHANTOM_STRIKE: ItemDescription = {
   type: 'vitality',
   tier: 4,
   stats: [
-    [15, '%', "Bullet Resist"],
+    [15, '%', "Spirit Resist"],
     [30, '%', "Weapon Damage"]
   ],
   active: {

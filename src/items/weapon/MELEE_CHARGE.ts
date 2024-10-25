@@ -6,8 +6,8 @@ export const MELEE_CHARGE: ItemDescription = {
   type: 'weapon',
   tier: 2,
   stats: [
-    [15, '%', "Weapon Damage"],
-    [100, '', "Bonus Health"],
+    [12, '%', "Weapon Damage"],
+    [75, '', "Bonus Health"],
     [1, '', "Health Regen"]
   ],
   passive: {

@@ -11,7 +11,7 @@ export const MYSTIC_SHOT: ItemDescription = {
   ],
   passive: {
     description: "Your next bullet deals bonus Spirit Damage.",
-    cooldown: 6,
+    cooldown: 5.75,
     details: [
       [65, "Spirit Damage"]
     ]

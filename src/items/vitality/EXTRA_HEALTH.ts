@@ -1,4 +1,5 @@
 import { ItemDescription } from "../Item";
+import { FORTITUDE } from "./FORTITUDE";
 
 export const EXTRA_HEALTH: ItemDescription = {
   name: 'Extra Health',
@@ -8,5 +9,6 @@ export const EXTRA_HEALTH: ItemDescription = {
   stats: [
     [160, '', "Bonus Health"],
     [6, '%', "Weapon Damage"]
-  ]
+  ],
+  buildsInto: () => FORTITUDE
 }

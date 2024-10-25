@@ -14,7 +14,7 @@ export const SURGE_OF_POWER: ItemDescription = {
     details: [
       [34, "Spirit Power"],
       [10, "%", "Fire Rate Bonus (Conditional)"],
-      [3, "m/s", "Move Speed (Conditional)"],
+      [2, "m/s", "Move Speed (Conditional)"],
       [6, "s", "Duration"]
     ]
   }

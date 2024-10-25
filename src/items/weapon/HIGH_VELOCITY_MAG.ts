@@ -7,9 +7,9 @@ export const HIGH_VELOCITY_MAG: ItemDescription = {
   type: 'weapon',
   tier: 1,
   stats: [
-    [25, '%', "Bullet Velocity"],
-    [12, '%', "Weapon Damage"],
-    [50, '', "Bullet Shield Health"]
+    [20, '%', "Bullet Velocity"],
+    [13, '%', "Weapon Damage"],
+    [65, '', "Bullet Shield Health"]
   ],
   buildsInto: () => PRISTINE_EMBLEM
 }

@@ -6,8 +6,8 @@ export const VEIL_WALKER: ItemDescription = {
   type: 'vitality',
   tier: 3,
   stats: [
-    [200, '', "Bullet Shield Health"],
-    [200, '', "Spirit Shield Health"],
+    [250, '', "Bullet Shield Health"],
+    [250, '', "Spirit Shield Health"],
     [12, '%', "Ammo"],
     [10, '%', "Weapon Damage"]
   ],
